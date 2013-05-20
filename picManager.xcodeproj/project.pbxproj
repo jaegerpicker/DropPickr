@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2998EF76174AB124009B5F41 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2998EF77174AB124009B5F41 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+				2998EF7B174AB214009B5F41 /* CopyFiles */,
+			);
+			dependencies = (
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2998EF74174AB024009B5F41 /* ObjectiveFlickr.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 68550E293DAF24713E8BFD76 /* ObjectiveFlickr.framework */; };
+		2998EF7D174AB222009B5F41 /* ObjectiveFlickr.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 68550E293DAF24713E8BFD76 /* ObjectiveFlickr.framework */; };
+		685500149EB83FE542A77876 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68550E7DCE9A099A68DFAF9F /* InfoPlist.strings */; };
+		685500A3B81A3D3CCED2A103 /* picManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68550BEA17FC4EE3753065CF /* picManagerTests.m */; };
+		685501203505A63F4A01A0C8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685508507A6DD3573BA3BB91 /* SenTestingKit.framework */; };
+		68550705553312561BFBB8B7 /* caAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68550514CCBED555E215EAFD /* caAppDelegate.m */; };
+		685509094EF7C807C6CB8180 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68550ED6ECEA07F6ED076BFC /* Cocoa.framework */; };
+		685509E10573D1D8026DE4C9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 68550843F0FAC2D30F0F0DE0 /* Credits.rtf */; };
+		68550A16A4447A55C78BE038 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 685500A0811756A4ACA1E71A /* InfoPlist.strings */; };
+		68550B9F24CA3A26A8FEEFEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 685500AFD32482DBC9E5E137 /* main.m */; };
+		68550BFE857CF1DB356238DB /* picManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68550C714B7196E96AB0703B /* picManager.xcdatamodeld */; };
+		68550C0235184E4E75DF8EAD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685506D87AB23FEF8FC994A4 /* MainMenu.xib */; };
+		68550F831ECBB781AA4A8FDF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68550ED6ECEA07F6ED076BFC /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2998EF71174AAFEF009B5F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685500B1270848695CDCAB39 /* ObjectiveFlickr.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A8666480F9593B200325E1C;
+			remoteInfo = "ObjectiveFlickr (framework)";
+		};
+		685501A22ED506EE6EC86146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685500B1270848695CDCAB39 /* ObjectiveFlickr.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 68550AC12D310C326FF5ABB8;
+			remoteInfo = "ObjectiveFlickr (framework)";
+		};
+		6855040F5F26C54C15874E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68550283C03903DC49FCC591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68550309A619C6017987B457;
+			remoteInfo = picManager;
+		};
+		685507CC90022D68770629BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685500B1270848695CDCAB39 /* ObjectiveFlickr.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 68550E0CB00FF469BF151F1C;
+			remoteInfo = "ObjectiveFlickr (library)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2998EF73174AAFFF009B5F41 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2998EF74174AB024009B5F41 /* ObjectiveFlickr.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2998EF7B174AB214009B5F41 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2998EF7D174AB222009B5F41 /* ObjectiveFlickr.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6855002378104A07742E7411 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		68550077614DA557574BB441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		685500AFD32482DBC9E5E137 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		685500B1270848695CDCAB39 /* ObjectiveFlickr.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectiveFlickr.xcodeproj; path = ../Documents/objectiveflickr/ObjectiveFlickr.xcodeproj; sourceTree = "<group>"; };
+		685500D2912BE646610680CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		685501166509FF9D98828593 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6855012E99F5AB8B5E7BC237 /* caAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = caAppDelegate.h; sourceTree = "<group>"; };
+		685502B8D65660284A348382 /* picManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = picManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6855044E329A22B4D7F1250C /* picManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "picManager-Prefix.pch"; sourceTree = "<group>"; };
+		68550514CCBED555E215EAFD /* caAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = caAppDelegate.m; sourceTree = "<group>"; };
+		685505F0AC35DB048DD49FB3 /* picManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "picManagerTests-Info.plist"; sourceTree = "<group>"; };
+		685506493F66A06795EDA1B0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		685507C5A8D632F302579C81 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		685508507A6DD3573BA3BB91 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6855092BBF83B38FD63B6A7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68550B80164D5ABCA328C75F /* picManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = picManager.xcdatamodel; sourceTree = "<group>"; };
+		68550BEA17FC4EE3753065CF /* picManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = picManagerTests.m; sourceTree = "<group>"; };
+		68550C05F8A6A1C662F8073D /* picManagerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = picManagerTests.h; sourceTree = "<group>"; };
+		68550E210D684DFD88A0C87F /* picManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "picManager-Info.plist"; sourceTree = "<group>"; };
+		68550ED6ECEA07F6ED076BFC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		68550F5271341B3506E40A29 /* picManagerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = picManagerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6855056C1F06BE05EC2D8D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68550F831ECBB781AA4A8FDF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68550E918D4EB31FF764EB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685501203505A63F4A01A0C8 /* SenTestingKit.framework in Frameworks */,
+				685509094EF7C807C6CB8180 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		685500035E686D1C89F07267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68550E293DAF24713E8BFD76 /* ObjectiveFlickr.framework */,
+				685508830684B94A3E062543 /* libObjectiveFlickr.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68550311A073412FFD769480 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				685506493F66A06795EDA1B0 /* AppKit.framework */,
+				685507C5A8D632F302579C81 /* CoreData.framework */,
+				6855092BBF83B38FD63B6A7D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6855035A2A2C0601C452BA92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				685502B8D65660284A348382 /* picManager.app */,
+				68550F5271341B3506E40A29 /* picManagerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6855039344849A30A106A79A /* picManager */ = {
+			isa = PBXGroup;
+			children = (
+				68550A3D117A04B5902536BE /* Supporting Files */,
+				6855012E99F5AB8B5E7BC237 /* caAppDelegate.h */,
+				68550514CCBED555E215EAFD /* caAppDelegate.m */,
+				685506D87AB23FEF8FC994A4 /* MainMenu.xib */,
+				68550C714B7196E96AB0703B /* picManager.xcdatamodeld */,
+			);
+			path = picManager;
+			sourceTree = "<group>";
+		};
+		68550425CD9D1DCA2A4A48C2 = {
+			isa = PBXGroup;
+			children = (
+				6855035A2A2C0601C452BA92 /* Products */,
+				68550CD48A409BF268552520 /* Frameworks */,
+				6855039344849A30A106A79A /* picManager */,
+				6855069E46256573878C8C4C /* picManagerTests */,
+				685500B1270848695CDCAB39 /* ObjectiveFlickr.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		6855069E46256573878C8C4C /* picManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				68550E951DE3BBCBD121F092 /* Supporting Files */,
+				68550C05F8A6A1C662F8073D /* picManagerTests.h */,
+				68550BEA17FC4EE3753065CF /* picManagerTests.m */,
+			);
+			path = picManagerTests;
+			sourceTree = "<group>";
+		};
+		68550A3D117A04B5902536BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68550E210D684DFD88A0C87F /* picManager-Info.plist */,
+				68550E7DCE9A099A68DFAF9F /* InfoPlist.strings */,
+				685500AFD32482DBC9E5E137 /* main.m */,
+				6855044E329A22B4D7F1250C /* picManager-Prefix.pch */,
+				68550843F0FAC2D30F0F0DE0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68550CD48A409BF268552520 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68550ED6ECEA07F6ED076BFC /* Cocoa.framework */,
+				68550311A073412FFD769480 /* Other Frameworks */,
+				685508507A6DD3573BA3BB91 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68550E951DE3BBCBD121F092 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				685505F0AC35DB048DD49FB3 /* picManagerTests-Info.plist */,
+				685500A0811756A4ACA1E71A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68550309A619C6017987B457 /* picManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68550A5F3961C783D7589455 /* Build configuration list for PBXNativeTarget "picManager" */;
+			buildPhases = (
+				68550ED13519912280D0D017 /* Sources */,
+				6855056C1F06BE05EC2D8D6F /* Frameworks */,
+				68550901EABDE505B4B12C8A /* Resources */,
+				2998EF73174AAFFF009B5F41 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2998EF72174AAFEF009B5F41 /* PBXTargetDependency */,
+			);
+			name = picManager;
+			productName = picManager;
+			productReference = 685502B8D65660284A348382 /* picManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		685504E78B1C96DEE8EB84A9 /* picManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68550886C2AAAFC7CE26F759 /* Build configuration list for PBXNativeTarget "picManagerTests" */;
+			buildPhases = (
+				685506DEE4DBD100D65757A4 /* Sources */,
+				68550E918D4EB31FF764EB01 /* Frameworks */,
+				685501A79FD654EFD7F8DA1F /* Resources */,
+				6855065F1C8C9E6B8AC0D48D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685502F4E76F60CE295C8FF2 /* PBXTargetDependency */,
+			);
+			name = picManagerTests;
+			productName = picManagerTests;
+			productReference = 68550F5271341B3506E40A29 /* picManagerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68550283C03903DC49FCC591 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Code Art Games";
+			};
+			buildConfigurationList = 68550D91C6FFDEEAF41FA508 /* Build configuration list for PBXProject "picManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68550425CD9D1DCA2A4A48C2;
+			productRefGroup = 6855035A2A2C0601C452BA92 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 685500035E686D1C89F07267 /* Products */;
+					ProjectRef = 685500B1270848695CDCAB39 /* ObjectiveFlickr.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				68550309A619C6017987B457 /* picManager */,
+				685504E78B1C96DEE8EB84A9 /* picManagerTests */,
+				2998EF76174AB124009B5F41 /* All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		685508830684B94A3E062543 /* libObjectiveFlickr.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libObjectiveFlickr.a;
+			remoteRef = 685507CC90022D68770629BF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		68550E293DAF24713E8BFD76 /* ObjectiveFlickr.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectiveFlickr.framework;
+			remoteRef = 685501A22ED506EE6EC86146 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		685501A79FD654EFD7F8DA1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68550A16A4447A55C78BE038 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68550901EABDE505B4B12C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685500149EB83FE542A77876 /* InfoPlist.strings in Resources */,
+				685509E10573D1D8026DE4C9 /* Credits.rtf in Resources */,
+				68550C0235184E4E75DF8EAD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6855065F1C8C9E6B8AC0D48D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		685506DEE4DBD100D65757A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685500A3B81A3D3CCED2A103 /* picManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68550ED13519912280D0D017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68550B9F24CA3A26A8FEEFEC /* main.m in Sources */,
+				68550705553312561BFBB8B7 /* caAppDelegate.m in Sources */,
+				68550BFE857CF1DB356238DB /* picManager.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2998EF72174AAFEF009B5F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ObjectiveFlickr (framework)";
+			targetProxy = 2998EF71174AAFEF009B5F41 /* PBXContainerItemProxy */;
+		};
+		685502F4E76F60CE295C8FF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68550309A619C6017987B457 /* picManager */;
+			targetProxy = 6855040F5F26C54C15874E8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		685500A0811756A4ACA1E71A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685501166509FF9D98828593 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		685506D87AB23FEF8FC994A4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6855002378104A07742E7411 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		68550843F0FAC2D30F0F0DE0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68550077614DA557574BB441 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		68550E7DCE9A099A68DFAF9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685500D2912BE646610680CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2998EF78174AB124009B5F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(TARGET_BUILD_DIR)/$(FRAMEWORKS_FOLDER_PATH)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2998EF79174AB124009B5F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(TARGET_BUILD_DIR)/$(FRAMEWORKS_FOLDER_PATH)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		685504D048AED2977B59C1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/picManager.app/Contents/MacOS/picManager";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "picManager/picManager-Prefix.pch";
+				INFOPLIST_FILE = "picManagerTests/picManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		68550AC1151D2DA67A438B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/picManager.app/Contents/MacOS/picManager";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "picManager/picManager-Prefix.pch";
+				INFOPLIST_FILE = "picManagerTests/picManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		68550BB9C86E28A34E3FE57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "picManager/picManager-Prefix.pch";
+				INFOPLIST_FILE = "picManager/picManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/../Documents/objectiveflickr\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68550C8248F1C997FAA457F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "picManager/picManager-Prefix.pch";
+				INFOPLIST_FILE = "picManager/picManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/../Documents/objectiveflickr\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		68550C913ADF23FE4B9E2E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68550DB0A59ACE6A1984C265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2998EF77174AB124009B5F41 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2998EF78174AB124009B5F41 /* Release */,
+				2998EF79174AB124009B5F41 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68550886C2AAAFC7CE26F759 /* Build configuration list for PBXNativeTarget "picManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68550AC1151D2DA67A438B8A /* Release */,
+				685504D048AED2977B59C1DA /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68550A5F3961C783D7589455 /* Build configuration list for PBXNativeTarget "picManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68550C8248F1C997FAA457F3 /* Release */,
+				68550BB9C86E28A34E3FE57F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68550D91C6FFDEEAF41FA508 /* Build configuration list for PBXProject "picManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68550C913ADF23FE4B9E2E79 /* Release */,
+				68550DB0A59ACE6A1984C265 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68550C714B7196E96AB0703B /* picManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68550B80164D5ABCA328C75F /* picManager.xcdatamodel */,
+			);
+			currentVersion = 68550B80164D5ABCA328C75F /* picManager.xcdatamodel */;
+			path = picManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 68550283C03903DC49FCC591 /* Project object */;
+}
